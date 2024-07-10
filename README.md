@@ -1,114 +1,24 @@
-# Bot Discord Python Music
+# MusicBot
 
-Bot Discord này được phát triển bằng Python để phát nhạc trong các kênh thoại của Discord. 
+[![GitHub stars](https://img.shields.io/github/stars/Just-Some-Bots/MusicBot.svg)](https://github.com/Just-Some-Bots/MusicBot/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Just-Some-Bots/MusicBot.svg)](https://github.com/Just-Some-Bots/MusicBot/network)
+[![Python version](https://img.shields.io/badge/python-3.8%2C%203.6%2C%203.7-blue.svg)](https://python.org)
+[![Discord](https://discordapp.com/api/guilds/129489631539494912/widget.png?style=shield)](https://discord.gg/bots)
 
-## Cấu trúc thư mục
+MusicBot is the original Discord music bot written for [Python](https://www.python.org "Python homepage") 3.8+, using the [pycord](https://github.com/Pycord-Development/pycord) library. It plays requested songs from YouTube and other services into a Discord server (or multiple servers). If the queue is empty, MusicBot will play a list of existing songs that is configurable. The bot features a permission system, allowing owners to restrict commands to certain people. MusicBot is capable of streaming live media into a voice channel (experimental).
 
-```
-bot-discord-python-music/
-├── bin/
-│   ├── ffmpeg.exe
-│   └── ffprobe.exe
-├── config/
-│   ├── i18n/
-│   │   ├── en.json
-│   │   ├── es.json
-│   │   ├── fr.json
-│   │   ├── hin.json
-│   │   ├── it.json
-│   │   ├── ja.json
-│   │   ├── kr.json
-│   │   ├── pl.json
-│   │   ├── ru.json
-│   │   ├── sv.json
-│   │   ├── th.json
-│   │   ├── vi.json
-│   │   └── zh_TW.json
-│   ├── aliases.json
-│   ├── autoplaylist.txt
-│   ├── blacklist.txt
-│   ├── Free List.txt
-│   ├── options.ini
-│   ├── permissions.ini
-│   └── whitelist.txt
-├── data/
-│   ├── dcs_music_bot.log
-│   ├── dcs_music_bot.log.last
-│   ├── musicbot.log
-│   └── musicbot.log.last
-├── musicbot/
-│   ├── lib/
-│   │   ├── event_emitter.py
-│   │   └── __init__.py
-│   ├── __init__.py
-│   ├── aliases.py
-│   ├── bot.py
-│   ├── config.py
-│   ├── constants.py
-│   ├── constructs.py
-│   ├── downloader.py
-│   ├── entry.py
-│   ├── exceptions.py
-│   ├── json.py
-│   ├── opus_loader.py
-│   ├── permissions.py
-│   ├── player.py
-│   ├── playlist.py
-│   ├── spotify.py
-│   ├── utils.py
-│   ├── bootstrap.py
-├── README.md
-├── requirements.txt
-├── run.py
-└── Start.bat
-```
+![Main](https://i.imgur.com/FWcHtcS.png)
 
-## Hướng dẫn cài đặt
+## Setup
+Setting up the MusicBot is relatively painless - just follow one of the [guides](https://just-some-bots.github.io/MusicBot/). After that, configure the bot to ensure its connection to Discord.
 
-### Yêu cầu hệ thống
+The main configuration file is `config/options.ini`, but it is not included by default. Simply make a copy of `example_options.ini` and rename it to `options.ini`. See [`example_options.ini`](./config/example_options.ini) for more information about configurations.
 
-- Python 3.8 hoặc mới hơn
-- Pip (đi kèm với Python)
-- ffmpeg và ffprobe
+### Commands
 
-### Bước 1: Tải và cài đặt Python
+There are many commands that can be used with the bot. Most notably, the `play <url>` command (preceded by your command prefix), which will download, process, and play a song from YouTube or a similar site. A full list of commands is available [here](https://just-some-bots.github.io/MusicBot/using/commands/ "Commands").
 
-1. Tải Python từ [python.org](https://www.python.org/downloads/).
-2. Cài đặt Python và đảm bảo rằng bạn đã thêm Python vào PATH trong quá trình cài đặt.
+### Further reading
 
-### Bước 2: Tải và đặt ffmpeg và ffprobe
-
-1. Truy cập [ffmpeg.org](https://ffmpeg.org/download.html).
-2. Tải về bản ffmpeg phù hợp với hệ điều hành của bạn.
-3. Giải nén tệp đã tải về và lấy hai tệp `ffmpeg.exe` và `ffprobe.exe`.
-4. Đặt hai tệp này vào thư mục `bin` trong dự án của bạn.
-
-### Bước 3: Cài đặt các gói phụ thuộc
-
-1. Mở terminal hoặc command prompt.
-2. Điều hướng đến thư mục chứa tệp `requirements.txt`.
-3. Chạy lệnh sau để cài đặt các gói phụ thuộc:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-### Bước 4: Chạy bot
-
-1. Đảm bảo rằng bạn đã cấu hình tệp `config/options.ini` theo ý muốn.
-2. Chạy bot bằng cách sử dụng lệnh sau trong terminal hoặc command prompt:
-
-   ```bash
-   python run.py
-   ```
-
-### Bước 5: Sử dụng bot
-
-- Tham gia vào kênh thoại mà bạn muốn bot phát nhạc.
-- Sử dụng các lệnh đã được cấu hình để bot bắt đầu phát nhạc trong kênh thoại.
-
-## Tham khảo
-
-- [Repository trên GitHub](https://github.com/vngctcreative/bot-discord-python-music)
-
-Nếu bạn gặp bất kỳ vấn đề gì trong quá trình cài đặt hoặc sử dụng, vui lòng tạo một issue trên GitHub để được hỗ trợ.
+* [Support Discord server](https://discord.gg/bots)
+* [Project license](LICENSE)
