@@ -71,19 +71,24 @@ bot-discord-python-music/
 - Pip (đi kèm với Python)
 - ffmpeg và ffprobe
 
-### Bước 1: Tải và cài đặt Python
+### Bước 1: Fork repository trên GitHub
+
+1. Truy cập [repository trên GitHub](https://github.com/vngctcreative/bot-discord-python-music).
+2. Nhấn nút "Fork" ở góc trên bên phải để tạo một bản sao của repository trong tài khoản GitHub của bạn.
+
+### Bước 2: Tải và cài đặt Python
 
 1. Tải Python từ [python.org](https://www.python.org/downloads/).
 2. Cài đặt Python và đảm bảo rằng bạn đã thêm Python vào PATH trong quá trình cài đặt.
 
-### Bước 2: Tải và đặt ffmpeg và ffprobe
+### Bước 3: Tải và đặt ffmpeg và ffprobe
 
 1. Truy cập [ffmpeg.org](https://ffmpeg.org/download.html).
 2. Tải về bản ffmpeg phù hợp với hệ điều hành của bạn.
 3. Giải nén tệp đã tải về và lấy hai tệp `ffmpeg.exe` và `ffprobe.exe`.
 4. Đặt hai tệp này vào thư mục `bin` trong dự án của bạn.
 
-### Bước 3: Cài đặt các gói phụ thuộc
+### Bước 4: Cài đặt các gói phụ thuộc
 
 1. Mở terminal hoặc command prompt.
 2. Điều hướng đến thư mục chứa tệp `requirements.txt`.
@@ -93,22 +98,17 @@ bot-discord-python-music/
    pip install -r requirements.txt
    ```
 
-### Bước 4: Chạy bot
+### Bước 5: Chạy bot
 
-1. Đảm bảo rằng bạn đã cấu hình tệp `config/options.ini` theo ý muốn.
-2. Chạy bot bằng cách sử dụng lệnh sau trong terminal hoặc command prompt:
+1. Đảm bảo rằng bạn đã cấu hình tệp `config/options.ini`.
+2. Chạy bot bằng cách sử dụng tệp bat Start.bat
 
+Hoặc lệnh sau trong terminal hoặc command prompt:
    ```bash
    python run.py
    ```
 
-### Bước 5: Sử dụng bot
+### Bước 6: Sử dụng bot
 
 - Tham gia vào kênh thoại mà bạn muốn bot phát nhạc.
 - Sử dụng các lệnh đã được cấu hình để bot bắt đầu phát nhạc trong kênh thoại.
-
-## Tham khảo
-
-- [Repository trên GitHub](https://github.com/vngctcreative/bot-discord-python-music)
-
-Nếu bạn gặp bất kỳ vấn đề gì trong quá trình cài đặt hoặc sử dụng, vui lòng tạo một issue trên GitHub để được hỗ trợ.
