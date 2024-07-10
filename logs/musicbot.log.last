@@ -1,0 +1,60 @@
+[38.460731506] 2024-06-25 19:28:06,454 - INFO - launcher: Starting sanity checks
+[39.456367493] 2024-06-25 19:28:06,455 - INFO - launcher: Checking for Python 3.8+
+[39.456367493] 2024-06-25 19:28:06,455 - INFO - launcher: Checking console encoding
+[39.456367493] 2024-06-25 19:28:06,455 - INFO - launcher: Setting console encoding to UTF-8
+[39.456367493] 2024-06-25 19:28:06,455 - INFO - launcher: Ensuring we're in the right environment
+[39.456367493] 2024-06-25 19:28:06,455 - INFO - launcher: Adding local bins/ folder to path
+[182.262182236] 2024-06-25 19:28:06,597 - INFO - launcher: Required checks passed.
+[183.258771896] 2024-06-25 19:28:06,598 - INFO - launcher: Optional checks passed.
+[183.258771896] 2024-06-25 19:28:06,598 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[0.5070352554321289] 2024-06-25 19:28:06,922 - WARNING - musicbot.config | In config.py::MainThread(41296), line 247 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/vi.json.
+[0.5080327987670898] 2024-06-25 19:28:06,923 - INFO - musicbot.config | In config.py::MainThread(41296), line 262 in run_checks: Using i18n: config/i18n/vi.json
+[0.5080327987670898] 2024-06-25 19:28:06,923 - DEBUG - musicbot.bot | In bot.py::MainThread(41296), line 277 in _setup_logging: Đặt mức ghi nhật ký thành INFO
+[0.5080327987670898] 2024-06-25 19:28:06,923 - DEBUG - musicbot.json | In json.py::MainThread(41296), line 9 in __init__: Init JSON obj with config/i18n/vi.json
+[0.5939419269561768] 2024-06-25 19:28:07,009 - INFO - musicbot.bot | In bot.py::MainThread(41296), line 98 in __init__: Khởi động DCS Music BOT
+[0.5939419269561768] 2024-06-25 19:28:07,009 - INFO - musicbot.bot | In bot.py::MainThread(41296), line 104 in __init__: Đã tải danh sách tự động phát có 1 mục nhập
+[0.5949385166168213] 2024-06-25 19:28:07,010 - WARNING - musicbot.bot | In bot.py::MainThread(41296), line 153 in _doBotInit: Cấu hình không có thông tin xác thực ứng dụng Spotify, đang cố gắng sử dụng chế độ khách.
+[1.8310101032257080] 2024-06-25 19:28:08,246 - DEBUG - musicbot.spotify | In spotify.py::MainThread(41296), line 111 in get_token: Created a new guest access token: {'access_token': 'BQCVszROGr6mj1tQ0WXQLzDWI6DlN3oiFO9Stl_prRY6nUoYHdyorfXaFXiRCe3futFYqaafadINPfUk2tqEzG45orBJe9SyPp2akG5FdMTIDbw98XU', 'expires_at': 1719321789.76}
+[1.8310101032257080] 2024-06-25 19:28:08,246 - INFO - musicbot.bot | In bot.py::MainThread(41296), line 164 in _doBotInit: Đã xác thực thành công với Spotify bằng chế độ khách.
+[5.3193652629852295] 2024-06-25 19:28:11,734 - DEBUG - musicbot.bot | In bot.py::MainThread(41296), line 1107 in on_ready: Connection established, ready to go.
+[5.3193652629852295] 2024-06-25 19:28:11,734 - DEBUG - musicbot.bot | In bot.py::MainThread(41296), line 426 in _cache_app_info: Caching app info
+[5.6696853637695312] 2024-06-25 19:28:12,085 - DEBUG - musicbot.bot | In bot.py::MainThread(41296), line 920 in _scheck_ensure_env: Ensuring data folders exist
+[5.6696853637695312] 2024-06-25 19:28:12,085 - DEBUG - musicbot.bot | In bot.py::MainThread(41296), line 935 in _scheck_server_permissions: Checking server permissions
+[5.6696853637695312] 2024-06-25 19:28:12,085 - DEBUG - musicbot.bot | In bot.py::MainThread(41296), line 939 in _scheck_autoplaylist: Auditing autoplaylist
+[5.6696853637695312] 2024-06-25 19:28:12,085 - DEBUG - musicbot.bot | In bot.py::MainThread(41296), line 943 in _scheck_configs: Validating config
+[5.6696853637695312] 2024-06-25 19:28:12,085 - DEBUG - musicbot.config | In config.py::MainThread(41296), line 388 in async_validate: Validating options...
+[5.6696853637695312] 2024-06-25 19:28:12,085 - DEBUG - musicbot.config | In config.py::MainThread(41296), line 400 in async_validate: Acquired owner id via API
+[5.6696853637695312] 2024-06-25 19:28:12,085 - DEBUG - musicbot.bot | In bot.py::MainThread(41296), line 946 in _scheck_configs: Validating permissions config
+[5.6696853637695312] 2024-06-25 19:28:12,085 - DEBUG - musicbot.permissions | In permissions.py::MainThread(41296), line 112 in async_validate: Validating permissions...
+[5.6706819534301758] 2024-06-25 19:28:12,086 - DEBUG - musicbot.permissions | In permissions.py::MainThread(41296), line 116 in async_validate: Fixing automatic owner group
+[5.6706819534301758] 2024-06-25 19:28:12,086 - INFO - musicbot.bot | In bot.py::MainThread(41296), line 1121 in on_ready: Đã kết nối: 1209077190856155186/DCS Music BOT#4873
+[5.6746692657470703] 2024-06-25 19:28:12,090 - INFO - musicbot.bot | In bot.py::MainThread(41296), line 1129 in on_ready: Chủ sở hữu: 711115131064549498/august_31st#0
+
+[5.6746692657470703] 2024-06-25 19:28:12,090 - INFO - musicbot.bot | In bot.py::MainThread(41296), line 1135 in on_ready: Guild List:
+[5.6746692657470703] 2024-06-25 19:28:12,090 - INFO - musicbot.bot | In bot.py::MainThread(41296), line 1139 in on_ready:  - CF4VN
+[5.6746692657470703] 2024-06-25 19:28:12,090 - INFO - musicbot.bot | In bot.py::MainThread(41296), line 1139 in on_ready:  - Developer Creative Server
+[5.6761734485626221] 2024-06-25 19:28:12,091 - INFO - musicbot.bot | In bot.py::MainThread(41296), line 1139 in on_ready:  - Thư viện học tập
+[5.6761734485626221] 2024-06-25 19:28:12,091 - INFO - musicbot.bot | In bot.py::MainThread(41296), line 1139 in on_ready:  - test
+[5.6796946525573730] 2024-06-25 19:28:12,095 - INFO - musicbot.bot | In bot.py::MainThread(41296), line 1212 in on_ready: Not bound to any text channels
+[5.6796946525573730] 2024-06-25 19:28:12,095 - INFO - musicbot.bot | In bot.py::MainThread(41296), line 1248 in on_ready: Not autojoining any voice channels
+[5.6836805343627930] 2024-06-25 19:28:12,099 - INFO - musicbot.bot | In bot.py::MainThread(41296), line 326 in _join_startup_channels: Found resumable voice channel Developer Creative Server/Thư giãn não sau khi code
+[5.6846780776977539] 2024-06-25 19:28:12,100 - INFO - musicbot.bot | In bot.py::MainThread(41296), line 336 in _join_startup_channels: Đã tìm thấy chủ sở hữu BOT ở kênh #Thư giãn não sau khi code
+[5.6846780776977539] 2024-06-25 19:28:12,100 - INFO - musicbot.bot | In bot.py::MainThread(41296), line 347 in _join_startup_channels: Đang cố gắng tham gia Developer Creative Server | Thư giãn não sau khi code
+[7.1166932582855225] 2024-06-25 19:28:13,532 - DEBUG - musicbot.bot | In bot.py::MainThread(41296), line 881 in deserialize_queue: Deserializing queue for 1208747973195075654
+[7.2115061283111572] 2024-06-25 19:28:13,627 - DEBUG - musicbot.bot | In bot.py::MainThread(41296), line 516 in get_player: Created player via deserialization for guild 1208747973195075654 with 35 entries
+[7.2115061283111572] 2024-06-25 19:28:13,627 - INFO - musicbot.bot | In bot.py::MainThread(41296), line 371 in _join_startup_channels: Joined Developer Creative Server/Thư giãn não sau khi code
+[7.2134993076324463] 2024-06-25 19:28:13,629 - DEBUG - musicbot.entry | In entry.py::MainThread(41296), line 62 in get_ready_future: Created future for None
+[7.2134993076324463] 2024-06-25 19:28:13,629 - DEBUG - musicbot.entry | In entry.py::MainThread(41296), line 62 in get_ready_future: Created future for audio_cache\youtube-J7eYhM6wXPo-An_Th_n_ft._Th_ng_Low_G_Rap_Nha_Lam.webm
+[7.2134993076324463] 2024-06-25 19:28:13,629 - FFMPEG - musicbot.player | In <string>::MainThread(41296), line 3 in ffmpeg: Creating player with options: -nostdin -vn audio_cache\youtube-J7eYhM6wXPo-An_Th_n_ft._Th_ng_Low_G_Rap_Nha_Lam.webm
+[7.2144963741302490] 2024-06-25 19:28:13,630 - DEBUG - musicbot.player | In player.py::MainThread(41296), line 339 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x000001BF35C6D610> using <discord.voice_client.VoiceClient object at 0x000001BF36325460>
+[7.2195146083831787] 2024-06-25 19:28:13,635 - INFO - musicbot.entry | In entry.py::MainThread(41296), line 285 in _download: Đã lưu vào bộ nhớ đệm: https://www.youtube.com/watch?v=_YzngEllRgM
+[7.2235002517700195] 2024-06-25 19:28:13,639 - DEBUG - musicbot.bot | In bot.py::MainThread(41296), line 559 in on_player_play: Running on_player_play
+[7.2244980335235596] 2024-06-25 19:28:13,640 - DEBUG - musicbot.bot | In bot.py::MainThread(41296), line 855 in serialize_queue: Serializing queue for 1208747973195075654
+[14.7615327835083008] 2024-06-25 19:28:21,177 - INFO - musicbot.bot | In bot.py::MainThread(41296), line 4262 in on_voice_state_update: Tạm dừng nhạc ở nhóm Developer Creative Server | Thư giãn não sau khi code (kênh trống hoặc thành viên tắt nghe)
+[14.7615327835083008] 2024-06-25 19:28:21,177 - DEBUG - musicbot.bot | In bot.py::MainThread(41296), line 651 in on_player_pause: Running on_player_pause
+[20.2759635448455811] 2024-06-25 19:28:26,691 - INFO - musicbot.bot | In bot.py::MainThread(41296), line 4193 in on_voice_state_update: Tiếp tục phát ở nhóm Developer Creative Server | Thư giãn não sau khi code
+[20.2849357128143311] 2024-06-25 19:28:26,700 - DEBUG - musicbot.bot | In bot.py::MainThread(41296), line 647 in on_player_resume: Running on_player_resume
+[166.4279825687408447] 2024-06-25 19:30:52,843 - INFO - musicbot.bot | In bot.py::MainThread(41296), line 3921 in on_message: 711115131064549498/august_31st: ?leave

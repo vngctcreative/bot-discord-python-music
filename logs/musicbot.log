@@ -1,0 +1,100 @@
+[36.878824234] 2024-06-25 19:31:43,994 - INFO - launcher: Starting sanity checks
+[36.878824234] 2024-06-25 19:31:43,994 - INFO - launcher: Checking for Python 3.8+
+[36.878824234] 2024-06-25 19:31:43,994 - INFO - launcher: Checking console encoding
+[36.878824234] 2024-06-25 19:31:43,994 - INFO - launcher: Setting console encoding to UTF-8
+[36.878824234] 2024-06-25 19:31:43,994 - INFO - launcher: Ensuring we're in the right environment
+[48.350572586] 2024-06-25 19:31:44,005 - INFO - launcher: Adding local bins/ folder to path
+[264.091968536] 2024-06-25 19:31:44,221 - INFO - launcher: Required checks passed.
+[265.088796616] 2024-06-25 19:31:44,222 - INFO - launcher: Optional checks passed.
+[265.088796616] 2024-06-25 19:31:44,222 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[0.6591627597808838] 2024-06-25 19:31:44,616 - WARNING - musicbot.config | In config.py::MainThread(38624), line 247 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/vi.json.
+[0.6591627597808838] 2024-06-25 19:31:44,616 - INFO - musicbot.config | In config.py::MainThread(38624), line 262 in run_checks: Using i18n: config/i18n/vi.json
+[0.6591627597808838] 2024-06-25 19:31:44,616 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 277 in _setup_logging: Đặt mức ghi nhật ký thành INFO
+[0.6601595878601074] 2024-06-25 19:31:44,617 - DEBUG - musicbot.json | In json.py::MainThread(38624), line 9 in __init__: Init JSON obj with config/i18n/vi.json
+[0.7767019271850586] 2024-06-25 19:31:44,734 - INFO - musicbot.bot | In bot.py::MainThread(38624), line 98 in __init__: Khởi động DCS Music BOT
+[0.7767019271850586] 2024-06-25 19:31:44,734 - INFO - musicbot.bot | In bot.py::MainThread(38624), line 104 in __init__: Đã tải danh sách tự động phát có 1 mục nhập
+[0.7767019271850586] 2024-06-25 19:31:44,734 - WARNING - musicbot.bot | In bot.py::MainThread(38624), line 153 in _doBotInit: Cấu hình không có thông tin xác thực ứng dụng Spotify, đang cố gắng sử dụng chế độ khách.
+[1.2262558937072754] 2024-06-25 19:31:45,183 - DEBUG - musicbot.spotify | In spotify.py::MainThread(38624), line 111 in get_token: Created a new guest access token: {'access_token': 'BQA0sxUupvdY9mRtxWq-6Sbsl_pxhvTXN20oL4zV5ss8gf15cZRUjp7y0jPjFRoNCYKF0VRf6dl3IXFAnD-Oc3FFyRpkfeZk80OUOWmtX_kq2mZF0RU', 'expires_at': 1719321988.703}
+[1.2262558937072754] 2024-06-25 19:31:45,183 - INFO - musicbot.bot | In bot.py::MainThread(38624), line 164 in _doBotInit: Đã xác thực thành công với Spotify bằng chế độ khách.
+[4.8519415855407715] 2024-06-25 19:31:48,809 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 1107 in on_ready: Connection established, ready to go.
+[4.8519415855407715] 2024-06-25 19:31:48,809 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 426 in _cache_app_info: Caching app info
+[5.1905703544616699] 2024-06-25 19:31:49,148 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 920 in _scheck_ensure_env: Ensuring data folders exist
+[5.2359583377838135] 2024-06-25 19:31:49,193 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 935 in _scheck_server_permissions: Checking server permissions
+[5.2359583377838135] 2024-06-25 19:31:49,193 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 939 in _scheck_autoplaylist: Auditing autoplaylist
+[5.2359583377838135] 2024-06-25 19:31:49,193 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 943 in _scheck_configs: Validating config
+[5.2359583377838135] 2024-06-25 19:31:49,193 - DEBUG - musicbot.config | In config.py::MainThread(38624), line 388 in async_validate: Validating options...
+[5.2359583377838135] 2024-06-25 19:31:49,193 - DEBUG - musicbot.config | In config.py::MainThread(38624), line 400 in async_validate: Acquired owner id via API
+[5.2359583377838135] 2024-06-25 19:31:49,193 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 946 in _scheck_configs: Validating permissions config
+[5.2359583377838135] 2024-06-25 19:31:49,193 - DEBUG - musicbot.permissions | In permissions.py::MainThread(38624), line 112 in async_validate: Validating permissions...
+[5.2359583377838135] 2024-06-25 19:31:49,193 - DEBUG - musicbot.permissions | In permissions.py::MainThread(38624), line 116 in async_validate: Fixing automatic owner group
+[5.2359583377838135] 2024-06-25 19:31:49,193 - INFO - musicbot.bot | In bot.py::MainThread(38624), line 1121 in on_ready: Đã kết nối: 1209077190856155186/DCS Music BOT#4873
+[5.2409415245056152] 2024-06-25 19:31:49,198 - INFO - musicbot.bot | In bot.py::MainThread(38624), line 1129 in on_ready: Chủ sở hữu: 711115131064549498/august_31st#0
+
+[5.2479183673858643] 2024-06-25 19:31:49,205 - INFO - musicbot.bot | In bot.py::MainThread(38624), line 1135 in on_ready: Danh sách nhóm:
+[5.2479183673858643] 2024-06-25 19:31:49,205 - INFO - musicbot.bot | In bot.py::MainThread(38624), line 1139 in on_ready:  - CF4VN
+[5.2479183673858643] 2024-06-25 19:31:49,205 - INFO - musicbot.bot | In bot.py::MainThread(38624), line 1139 in on_ready:  - Developer Creative Server
+[5.2512757778167725] 2024-06-25 19:31:49,208 - INFO - musicbot.bot | In bot.py::MainThread(38624), line 1139 in on_ready:  - Thư viện học tập
+[5.2512757778167725] 2024-06-25 19:31:49,208 - INFO - musicbot.bot | In bot.py::MainThread(38624), line 1139 in on_ready:  - test
+[5.2562589645385742] 2024-06-25 19:31:49,213 - INFO - musicbot.bot | In bot.py::MainThread(38624), line 1212 in on_ready: Not bound to any text channels
+[5.2672214508056641] 2024-06-25 19:31:49,224 - INFO - musicbot.bot | In bot.py::MainThread(38624), line 1248 in on_ready: Not autojoining any voice channels
+[5.2692458629608154] 2024-06-25 19:31:49,226 - INFO - musicbot.bot | In bot.py::MainThread(38624), line 336 in _join_startup_channels: Đã tìm thấy chủ sở hữu BOT ở kênh #Thư giãn não sau khi code
+[5.2712361812591553] 2024-06-25 19:31:49,228 - INFO - musicbot.bot | In bot.py::MainThread(38624), line 347 in _join_startup_channels: Đang cố gắng tham gia Developer Creative Server | Thư giãn não sau khi code
+[5.9450302124023438] 2024-06-25 19:31:49,902 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 881 in deserialize_queue: Deserializing queue for 1208747973195075654
+[6.0314140319824219] 2024-06-25 19:31:49,988 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 516 in get_player: Created player via deserialization for guild 1208747973195075654 with 35 entries
+[6.0314140319824219] 2024-06-25 19:31:49,988 - INFO - musicbot.bot | In bot.py::MainThread(38624), line 371 in _join_startup_channels: Joined Developer Creative Server/Thư giãn não sau khi code
+[6.0334074497222900] 2024-06-25 19:31:49,990 - DEBUG - musicbot.entry | In entry.py::MainThread(38624), line 62 in get_ready_future: Created future for audio_cache\youtube-_YzngEllRgM-MIN_-_Co_Em_Ch_ft._Mr_A_Official_MV.webm
+[6.0334074497222900] 2024-06-25 19:31:49,990 - DEBUG - musicbot.entry | In entry.py::MainThread(38624), line 62 in get_ready_future: Created future for audio_cache\youtube-J7eYhM6wXPo-An_Th_n_ft._Th_ng_Low_G_Rap_Nha_Lam.webm
+[6.0334074497222900] 2024-06-25 19:31:49,990 - FFMPEG - musicbot.player | In <string>::MainThread(38624), line 3 in ffmpeg: Creating player with options: -nostdin -vn audio_cache\youtube-J7eYhM6wXPo-An_Th_n_ft._Th_ng_Low_G_Rap_Nha_Lam.webm
+[6.0354008674621582] 2024-06-25 19:31:49,992 - DEBUG - musicbot.player | In player.py::MainThread(38624), line 339 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x0000021C26C45640> using <discord.voice_client.VoiceClient object at 0x0000021C26AA5CD0>
+[6.0363979339599609] 2024-06-25 19:31:49,993 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 559 in on_player_play: Running on_player_play
+[6.0363979339599609] 2024-06-25 19:31:49,993 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 855 in serialize_queue: Serializing queue for 1208747973195075654
+[6.0603799819946289] 2024-06-25 19:31:50,017 - FFMPEG - musicbot.player | In <string>::stderr reader(14696), line 3 in ffmpeg: Data from ffmpeg: b'[in#0 @ 000002b4ab0c87c0] Error opening input: No such file or directory\r\n'
+[6.0613765716552734] 2024-06-25 19:31:50,018 - FFMPEG - musicbot.player | In <string>::stderr reader(14696), line 3 in ffmpeg: Data from ffmpeg: b'Error opening input file audio_cache\\youtube-J7eYhM6wXPo-An_Th_n_ft._Th_ng_Low_G_Rap_Nha_Lam.webm.\r\n'
+[6.0623733997344971] 2024-06-25 19:31:50,019 - FFMPEG - musicbot.player | In <string>::stderr reader(14696), line 3 in ffmpeg: Data from ffmpeg: b'Error opening input files: No such file or directory\r\n'
+[6.0623733997344971] 2024-06-25 19:31:50,019 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 660 in on_player_finished_playing: Running on_player_finished_playing
+[6.0623733997344971] 2024-06-25 19:31:50,019 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 855 in serialize_queue: Serializing queue for 1208747973195075654
+[6.0643668174743652] 2024-06-25 19:31:50,021 - DEBUG - musicbot.entry | In entry.py::MainThread(38624), line 62 in get_ready_future: Created future for None
+[6.0643668174743652] 2024-06-25 19:31:50,021 - DEBUG - musicbot.entry | In entry.py::MainThread(38624), line 62 in get_ready_future: Created future for audio_cache\youtube-_YzngEllRgM-MIN_-_Co_Em_Ch_ft._Mr_A_Official_MV.webm
+[6.0643668174743652] 2024-06-25 19:31:50,021 - FFMPEG - musicbot.player | In <string>::MainThread(38624), line 3 in ffmpeg: Creating player with options: -nostdin -vn audio_cache\youtube-_YzngEllRgM-MIN_-_Co_Em_Ch_ft._Mr_A_Official_MV.webm
+[6.0653634071350098] 2024-06-25 19:31:50,022 - DEBUG - musicbot.player | In player.py::MainThread(38624), line 339 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x0000021C2626C890> using <discord.voice_client.VoiceClient object at 0x0000021C26AA5CD0>
+[6.0678622722625732] 2024-06-25 19:31:50,025 - INFO - musicbot.entry | In entry.py::MainThread(38624), line 436 in _really_download: Bắt đầu tải: https://www.youtube.com/watch?v=Wmkf6SvJ9M4
+[6.0758514404296875] 2024-06-25 19:31:50,033 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 559 in on_player_play: Running on_player_play
+[6.0768480300903320] 2024-06-25 19:31:50,034 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 855 in serialize_queue: Serializing queue for 1208747973195075654
+[6.0842337608337402] 2024-06-25 19:31:50,041 - FFMPEG - musicbot.player | In <string>::stderr reader(15296), line 3 in ffmpeg: Data from ffmpeg: b'[in#0 @ 000002cfad3f87c0] Error opening input: No such file or directory\r\n'
+[6.0842337608337402] 2024-06-25 19:31:50,041 - FFMPEG - musicbot.player | In <string>::stderr reader(15296), line 3 in ffmpeg: Data from ffmpeg: b'Error opening input file audio_cache\\youtube-_YzngEllRgM-MIN_-_Co_Em_Ch_ft._Mr_A_Official_MV.webm.\r\n'
+[6.0857393741607666] 2024-06-25 19:31:50,043 - FFMPEG - musicbot.player | In <string>::stderr reader(15296), line 3 in ffmpeg: Data from ffmpeg: b'Error opening input files: No such file or directory\r\n'
+[6.0867547988891602] 2024-06-25 19:31:50,044 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 660 in on_player_finished_playing: Running on_player_finished_playing
+[6.0867547988891602] 2024-06-25 19:31:50,044 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 855 in serialize_queue: Serializing queue for 1208747973195075654
+[6.0877523422241211] 2024-06-25 19:31:50,045 - DEBUG - musicbot.entry | In entry.py::MainThread(38624), line 62 in get_ready_future: Created future for None
+[6.0877523422241211] 2024-06-25 19:31:50,045 - DEBUG - musicbot.entry | In entry.py::MainThread(38624), line 62 in get_ready_future: Created future for None
+[6.0877523422241211] 2024-06-25 19:31:50,045 - INFO - musicbot.entry | In entry.py::MainThread(38624), line 436 in _really_download: Bắt đầu tải: https://www.youtube.com/watch?v=6cg2nEL6SZM
+[8.9277441501617432] 2024-06-25 19:31:52,885 - INFO - musicbot.entry | In entry.py::MainThread(38624), line 449 in _really_download: Đã tải xong: https://www.youtube.com/watch?v=Wmkf6SvJ9M4
+[8.9352364540100098] 2024-06-25 19:31:52,892 - FFMPEG - musicbot.player | In <string>::MainThread(38624), line 3 in ffmpeg: Creating player with options: -nostdin -vn audio_cache\youtube-Wmkf6SvJ9M4-tlinh_-_tinh_yeu_co_ngh_a_la_gi_OFFICIAL_MUSIC_VIDEO.webm
+[8.9362330436706543] 2024-06-25 19:31:52,893 - DEBUG - musicbot.player | In player.py::MainThread(38624), line 339 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x0000021C27216F00> using <discord.voice_client.VoiceClient object at 0x0000021C26AA5CD0>
+[8.9362330436706543] 2024-06-25 19:31:52,893 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 559 in on_player_play: Running on_player_play
+[8.9377353191375732] 2024-06-25 19:31:52,895 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 855 in serialize_queue: Serializing queue for 1208747973195075654
+[8.9786267280578613] 2024-06-25 19:31:52,936 - INFO - musicbot.entry | In entry.py::MainThread(38624), line 449 in _really_download: Đã tải xong: https://www.youtube.com/watch?v=6cg2nEL6SZM
+[167.6777901649475098] 2024-06-25 19:34:31,635 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 660 in on_player_finished_playing: Running on_player_finished_playing
+[168.0545139312744141] 2024-06-25 19:34:32,011 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 855 in serialize_queue: Serializing queue for 1208747973195075654
+[168.0555100440979004] 2024-06-25 19:34:32,012 - DEBUG - musicbot.entry | In entry.py::MainThread(38624), line 62 in get_ready_future: Created future for None
+[168.0555100440979004] 2024-06-25 19:34:32,012 - DEBUG - musicbot.entry | In entry.py::MainThread(38624), line 62 in get_ready_future: Created future for audio_cache\youtube-6cg2nEL6SZM-Tr_c_Khi_Em_T_n_T_i.m4a
+[168.0555100440979004] 2024-06-25 19:34:32,012 - FFMPEG - musicbot.player | In <string>::MainThread(38624), line 3 in ffmpeg: Creating player with options: -nostdin -vn audio_cache\youtube-6cg2nEL6SZM-Tr_c_Khi_Em_T_n_T_i.m4a
+[168.0575320720672607] 2024-06-25 19:34:32,015 - DEBUG - musicbot.player | In player.py::MainThread(38624), line 339 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x0000021C25E939E0> using <discord.voice_client.VoiceClient object at 0x0000021C26AA5CD0>
+[168.0610976219177246] 2024-06-25 19:34:32,018 - INFO - musicbot.entry | In entry.py::MainThread(38624), line 436 in _really_download: Bắt đầu tải: https://www.youtube.com/watch?v=hYYMF3VtOjE
+[168.0620548725128174] 2024-06-25 19:34:32,019 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 559 in on_player_play: Running on_player_play
+[168.0630517005920410] 2024-06-25 19:34:32,020 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 855 in serialize_queue: Serializing queue for 1208747973195075654
+[170.2158169746398926] 2024-06-25 19:34:34,173 - INFO - musicbot.entry | In entry.py::MainThread(38624), line 449 in _really_download: Đã tải xong: https://www.youtube.com/watch?v=hYYMF3VtOjE
+[362.2615432739257812] 2024-06-25 19:37:46,219 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 660 in on_player_finished_playing: Running on_player_finished_playing
+[362.6523754596710205] 2024-06-25 19:37:46,609 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 855 in serialize_queue: Serializing queue for 1208747973195075654
+[362.6543686389923096] 2024-06-25 19:37:46,611 - DEBUG - musicbot.entry | In entry.py::MainThread(38624), line 62 in get_ready_future: Created future for None
+[362.6543686389923096] 2024-06-25 19:37:46,611 - DEBUG - musicbot.entry | In entry.py::MainThread(38624), line 62 in get_ready_future: Created future for audio_cache\youtube-hYYMF3VtOjE-Ch_y_Kh_i_Th_Gi_i_Nay_-_Da_LAB_ft._Ph_ng_Ly_Official_Music_Video.webm
+[362.6543686389923096] 2024-06-25 19:37:46,611 - FFMPEG - musicbot.player | In <string>::MainThread(38624), line 3 in ffmpeg: Creating player with options: -nostdin -vn audio_cache\youtube-hYYMF3VtOjE-Ch_y_Kh_i_Th_Gi_i_Nay_-_Da_LAB_ft._Ph_ng_Ly_Official_Music_Video.webm
+[362.6563618183135986] 2024-06-25 19:37:46,613 - DEBUG - musicbot.player | In player.py::MainThread(38624), line 339 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x0000021C27EFE750> using <discord.voice_client.VoiceClient object at 0x0000021C26AA5CD0>
+[362.6578640937805176] 2024-06-25 19:37:46,615 - INFO - musicbot.entry | In entry.py::MainThread(38624), line 436 in _really_download: Bắt đầu tải: https://www.youtube.com/watch?v=1MmQUT3TjtI
+[362.6578640937805176] 2024-06-25 19:37:46,615 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 559 in on_player_play: Running on_player_play
+[362.6588778495788574] 2024-06-25 19:37:46,616 - DEBUG - musicbot.bot | In bot.py::MainThread(38624), line 855 in serialize_queue: Serializing queue for 1208747973195075654
+[364.4894156455993652] 2024-06-25 19:37:48,446 - INFO - musicbot.entry | In entry.py::MainThread(38624), line 449 in _really_download: Đã tải xong: https://www.youtube.com/watch?v=1MmQUT3TjtI
+[588.0450537204742432] 2024-06-25 19:41:32,002 - INFO - musicbot.bot | In bot.py::MainThread(38624), line 3921 in on_message: 711115131064549498/august_31st: ?leave

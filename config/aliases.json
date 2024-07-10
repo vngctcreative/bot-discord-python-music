@@ -1,0 +1,8 @@
+{
+    "play": ["p"],
+    "disconnect": ["leave", "quit"],
+    "skip": ["next"],
+    "queue": ["q"],
+    "summon": ["join"],
+    "clean": ["clear"]
+}
