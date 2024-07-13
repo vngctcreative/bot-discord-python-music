@@ -2,7 +2,7 @@
     "cmd-resetplaylist-response": "Danh sách phát tự động của máy chủ đã được đặt lại.",
     "cmd-help-invalid": "Không có lệnh này",
     "cmd-help-no-perms": "Bạn không có quyền sử dụng bất kỳ lệnh nào. Chạy `{}help all` để liệt kê tất cả các lệnh",
-    "cmd-help-response": "Để biết thông tin về một lệnh cụ thể, chạy `{}help [command]`\nĐể được hỗ trợ thêm, xem https://just-some-bots.github.io/MusicBot/",
+    "cmd-help-response": "Để biết thông tin về một lệnh cụ thể, chạy `{}help [command]`\nĐể được hỗ trợ thêm, xem https://github.com/vngctcreative/bot-discord-python-music",
     "cmd-help-all": "\nChỉ hiển thị các lệnh bạn có thể sử dụng, để xem danh sách tất cả các lệnh, chạy `{}help all`",
     "cmd-blacklist-invalid": "Tùy chọn không hợp lệ '{0}' được chỉ định, sử dụng +, -, add hoặc remove",
     "cmd-blacklist-added": "{0} người dùng đã được thêm vào danh sách đen",
